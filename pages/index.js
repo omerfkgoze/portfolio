@@ -94,12 +94,12 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10   dark:bg-slate-200 flex-1">
               <Image
                 className="m-auto"
                 src={design}
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 alt="img"
               />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
@@ -111,16 +111,16 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
               <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
+              <p className="text-gray-800 py-1">Tailwind</p>
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-200 flex-1">
               <Image
                 className="m-auto"
                 src={code}
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 alt="img"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
@@ -130,18 +130,18 @@ export default function Home() {
                 Do you have an idea for your next great website? Let&apos;s make
                 it a reality.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <h4 className="py-4 text-teal-600">My coding skills</h4>
+              <p className="text-gray-800 py-1">JS</p>
+              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">NodeJS</p>
+              <p className="text-gray-800 py-1">PostgreSQL</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-200 flex-1">
               <Image
                 className="m-auto"
                 src={consulting}
-                width={100}
-                height={100}
+                width={150}
+                height={150}
                 alt="img"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
@@ -173,7 +173,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+            <a href="" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
@@ -182,8 +182,8 @@ export default function Home() {
                 src={web1}
                 alt="img"
               />
-            </div>
-            <div className="basis-1/3 flex-1">
+            </a>
+            <a href="" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
@@ -192,8 +192,8 @@ export default function Home() {
                 src={web2}
                 alt="img"
               />
-            </div>
-            <div className="basis-1/3 flex-1">
+            </a>
+            <a href="" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
@@ -202,8 +202,8 @@ export default function Home() {
                 src={web3}
                 alt="img"
               />
-            </div>
-            <div className="basis-1/3 flex-1">
+            </a>
+            <a href="" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
@@ -212,8 +212,8 @@ export default function Home() {
                 src={web4}
                 alt="img"
               />
-            </div>
-            <div className="basis-1/3 flex-1">
+            </a>
+            <a href="" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
@@ -222,8 +222,8 @@ export default function Home() {
                 src={web5}
                 alt="img"
               />
-            </div>
-            <div className="basis-1/3 flex-1">
+            </a>
+            <a href="" className="basis-1/3 flex-1">
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
@@ -232,7 +232,7 @@ export default function Home() {
                 src={web6}
                 alt="img"
               />
-            </div>
+            </a>
           </div>
         </section>
       </main>
