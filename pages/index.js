@@ -173,7 +173,11 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <a href="" className="basis-1/3 flex-1">
+            <a
+              href="https://bankist-steel.vercel.app/"
+              className="basis-1/3 flex-1"
+              target="_blank"
+            >
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
@@ -183,7 +187,11 @@ export default function Home() {
                 alt="img"
               />
             </a>
-            <a href="" className="basis-1/3 flex-1">
+            <a
+              href="https://guess-my-number-alpha-coral.vercel.app/"
+              className="basis-1/3 flex-1"
+              target="_blank"
+            >
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
@@ -193,7 +201,11 @@ export default function Home() {
                 alt="img"
               />
             </a>
-            <a href="" className="basis-1/3 flex-1">
+            <a
+              href="https://mapty-silk.vercel.app/"
+              className="basis-1/3 flex-1"
+              target="_blank"
+            >
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
@@ -203,7 +215,11 @@ export default function Home() {
                 alt="img"
               />
             </a>
-            <a href="" className="basis-1/3 flex-1">
+            <a
+              href="https://travel-list-lime.vercel.app/"
+              className="basis-1/3 flex-1"
+              target="_blank"
+            >
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
@@ -213,7 +229,11 @@ export default function Home() {
                 alt="img"
               />
             </a>
-            <a href="" className="basis-1/3 flex-1">
+            <a
+              href="https://popcorn-rho.vercel.app/"
+              className="basis-1/3 flex-1"
+              target="_blank"
+            >
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
@@ -223,7 +243,11 @@ export default function Home() {
                 alt="img"
               />
             </a>
-            <a href="" className="basis-1/3 flex-1">
+            <a
+              href="https://pig-game-phi-dun.vercel.app/"
+              className="basis-1/3 flex-1"
+              target="_blank"
+            >
               <Image
                 className="rounded-lg object-cover"
                 width={'100%'}
